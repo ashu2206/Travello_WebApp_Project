@@ -1,0 +1,244 @@
+
+.dropbtn {
+    background-color:rgb(11, 50, 73);
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    margin-top: 0px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+   color:white;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(243, 228, 228);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {  
+    color:rgb(241, 111, 17);;
+}
+.home{
+    margin-left: 5px;
+}
+.home a
+{
+    margin-top: 0px;
+    margin-left: 1400px;
+    color: white;
+    padding: 9px 9px 9px 9px;
+}
+.home a:hover{
+    color: aliceblue;
+}
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+.imgmover{
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 805px;
+    height: 505px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.slider .header{
+    margin-left: 150px;
+    color: white;
+}
+.slides{
+    width: 1055%;
+    height: 505px;
+    display: flex;
+}
+.slides .text{
+    color: black;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 25%;
+    transition: 2s;
+}
+.slide img{
+    width: 805px;
+    height: 505px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid rgb(30, 29, 29);
+    padding: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.8s;
+    
+}
+.manual-btn:not(:last-child){
+    margin-right: 45px;
+
+}
+.manual-btn:hover{
+    background: rgb(231, 150, 21);
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 805px;
+    justify-content: center;
+    margin-top: 460px;   
+}
+.navigation-auto div{
+    border: 2px solid rgb(231, 150, 21);
+    padding: 5.5px;
+    border-radius: 11px;
+    transition: 0.8s;
+}
+.navigation-auto div:not(:last-child)
+{
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: rgb(44, 12, 33);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: rgb(44, 12, 33);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: rgb(44, 12, 33);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: rgb(44, 12, 33);
+}
+@media screen and (max-width: 600px){
+    .header{
+        margin-left: 0;
+        font-size: 10px;
+        line-height: 50px;
+        display: flex;
+    }
+    .slider{
+        width: 100%;
+        height: 505px;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    .slides{
+        width: 900%;
+        height: 90%;
+        display: flex;
+    }
+}
+.main-content .fp{
+    margin-top: 100px;
+    margin-left: 500px;
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: black;
+    width: 500px;
+}
+.card{
+    margin-left: 25px;
+    display: inline-block;
+    width: 100px;
+    flex-direction: row;
+}
+.card .card-title{
+    color: black;
+    background-color: orange;
+    text-align: center;
+}
+.cards .but{
+    margin-top: 5px;
+    background-color: orange;
+    font-weight: bold;
+    border-color: white;
+}
+.card .fc{
+    color: orange;
+    background-color: black;
+    text-align: center;
+}
+#cd{
+    display: none;
+}
+#cd1{
+    display: none;
+}
+#cd2{
+    display: none;
+}
+#cd3{
+    display: none;
+}
+#cd11{
+    display: none;
+}
+#cd12{
+    display: none;
+}
+#cd13{
+    display: none;
+}
+#cd14{
+    display: none;
+}
+#cd21{
+    display: none;
+}
+#cd22{
+    display: none;
+}
+#cd23{
+    display: none;
+}
+#cd24{
+    display: none;
+}
