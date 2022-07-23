@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.p_to_v_up_left{
+    padding: 30px;
+    border: none; 
+    font-weight: bold;
+}
+.aaa{
+    padding: 3px;
+    border: none;
+    outline: none;
+}
+.p_to_v_up_right{
+    margin-left: 86%;
+}
+.p_to_v_heading{
+    padding: 20px;
+    font-size:xx-large;
+    font-weight: 300;
+}
+.aab{
+    padding: 10px;
+    margin: 10px;
+}
+.container{
+    margin: 48px auto;
+    width: 80%;
+
+}
+.to_do{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    
+}
+.card:hover {
+    transform: scale(0.95);
+    background-color: grey;
+}
+.card img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+ .card h1{
+    padding: 0 80px;
+    
+}
+.vid{
+    padding: 30px;
+    margin-top: 20px;
+}
+.special{
+    margin: 20px;
+    padding: 10px;
+}
+.popular_cities_heading{
+    padding: 20px;
+    margin: 20px;
+    font-size: xx-large;
+}
+.popular_cities{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+.top{
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    
+}
+.top:hover {
+    transform: scale(0.95);
+    background-color: gray;
+}
+.top img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+ .top h1{
+    padding: 0 80px;
+    
+    
+}
+.top-a{
+    margin-left: -34px;
+}
+.top p{
+    width: 280px;
+    padding: 20px;
+    font-size: larger;
+}
+.vid_des{
+    width: 550px;
+    font-size: xx-large;
+    margin-left: 700px;
+    margin-top: -310px;
+    height: 320px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./images/light.webp);
+    color: black;
+}
+.tp{
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.see{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.attraction{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+.mid{
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    
+}
+.mid:hover {
+    transform: scale(0.95);
+    background-color: gray;
+}
+.mid img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+ .mid h1{
+    padding: 0 60px;
+    
+}
+.mid p{
+    width: 280px;
+    padding: 20px;
+    font-size: larger;
+}
+.mar{
+    margin-left: -60px;
+}
+.mari{
+    margin-left: -20px;
+}
+.button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.butt{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 40px;
+
+}
+.butt:hover{
+    background-color: gray
+}
+.reviews{
+    padding: 20px;
+    
+}
+.reviews-h{
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.reviews h2{
+    padding: 0 90px;
+}
+.reviews p{
+    width: 800px;
+    padding: 10px 60px;
+    margin-left: 310px;
+    margin-top: -30px;
+}
+.fa-thumbs-up{
+    padding: 5px;
+    margin-left: 400px;
+    margin-right: 5px;
+}
+.dash{
+    padding: 10px;
+    margin-top: 50px;
+}
