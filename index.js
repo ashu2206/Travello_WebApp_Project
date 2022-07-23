@@ -4,11 +4,12 @@ function myfunction()
     var p=document.getElementById("password").value;
     if(u=="user@gmail.com"&&p=="user")
     {
-        window.location.href="./pages/HomePage/home.html";
+        window.location.href="./login123/pages/HomePage/home.html";
     }
     else{
         alert("enter correct email and password");
     }
+    
     
 }
 
