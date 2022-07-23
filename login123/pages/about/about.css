@@ -1,0 +1,53 @@
+
+.first {
+    background-color: rgb(167, 144, 17);
+    background-image: url();
+  }
+  .first {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .content1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .first {
+    margin-bottom: 35px;
+  }
+  .content2 {
+    font-size: 22px;
+  }
+  body {
+    background-image: url(https://cutewallpaper.org/21/aerospace-engineering-wallpaper/Aerospace-Wallpapers-Wallpaper-Cave.jpg);
+  }
+  .middle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second {
+    margin-top: 70px;
+  }
+  img {
+    height: 190px;
+    margin: 0px -34px;
+  }
+  figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  a {
+    margin-left: 80%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .first h2,
+  h3 {
+    text-shadow: 2px 2px none;
+  }
+  
